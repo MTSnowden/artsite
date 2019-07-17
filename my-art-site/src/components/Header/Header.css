@@ -1,0 +1,28 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    /* background-color: black; */
+    height: 30vh;
+    width: 100%;
+    color: black;
+    font-family: 'Orbitron';
+}
+
+.header-flex {
+    display: grid;
+    margin: 0 auto;
+}
+.header-flex-1 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 10px;
+    color: gray;
+}
+
+#logo {
+    /* image: url('../images/logo.png') */
+}

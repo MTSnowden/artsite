@@ -1,0 +1,22 @@
+/* .jumbotron {
+    background-image: url('../images/main-pic.png');
+    background-size: cover;
+} */
+
+.main-container {
+    display: flex;
+    border: 4px solid black;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.main-flex {
+    display: flex;
+    margin: 0 auto;
+    height: 700px;
+    width: 600px;
+    background-size: cover;
+}
