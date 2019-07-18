@@ -1,8 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Wasp  from '../../images/main-pic.png'
 import './Main.css'
-// import { Jumbotron } from 'reactstrap'
-
 
 const Main = () => {
    return (

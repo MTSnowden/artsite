@@ -1,5 +1,25 @@
 .nav-container {
-    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 70px;
+    width: 100%;
     font-family: 'Gruppo';
-
+    justify-content: space-evenly;
 }
+
+li {
+    display: inline;
+    padding: 30px;
+}
+
+.top-header-left {
+    display: grid;
+    float: left;
+    align-items: flex-start;
+    color: black;
+}
+
+.top-header-right {
+    float: right;
+    align-items: flex-end;
+} 
